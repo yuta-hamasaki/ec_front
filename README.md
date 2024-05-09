@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-After you clone, npm install to install all necessary package  ### `npm install`
+After you clone, npm install to install all necessary package 
+### `npm install`
 
 ## Available Scripts
 
