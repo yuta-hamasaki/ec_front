@@ -3,7 +3,7 @@ import React from 'react'
 const ProductPost = () => {
   return (
     <div className='flex justify-center'>
-      <div className='w-full sm:w-96'>
+      <div className='w-full sm:w-96 m-2'>
         <div className='h-48'></div>
         <p className='mb-2 mt-4'>Product Name</p>
         <input type="text" name="product-name" id="product-name" className='w-full box-border border border-slate-400 rounded p-1' />
@@ -14,7 +14,7 @@ const ProductPost = () => {
         <p className='mb-2 mt-4'>Description</p>
         <textarea name="product-description" id="product-description" className='w-full h-32 box-border border border-slate-400 rounded p-1'></textarea>
         <br />
-        <input className='bg-indigo-500 text-white rounded mt-6 h-8 w-28 block mx-auto text-xs' type="submit" value="Post Product" />
+        <input className='bg-indigo-500 hover:bg-indigo-400 hover:cursor-pointer text-white rounded mt-6 h-8 w-28 block mx-auto text-xs' type="submit" value="Post Product" />
       </div>
     </div>
   )
