@@ -8,7 +8,11 @@ const ProductPost = () => {
         <p className='mb-2 mt-4'>Product Name</p>
         <input type="text" name="product-name" id="product-name" className='w-full box-border border border-slate-400 rounded p-1' />
         <p className='mb-2 mt-4'>Category</p>
-        <select name="product-category" id="product-category" className='w-full box-border border border-slate-400 rounded p-1'></select>
+        <select name="product-category" id="product-category" className='w-full box-border border border-slate-400 rounded p-1'>
+          <option value="all" selected>all</option>
+          <option value="grocery">grocery</option>
+          <option value="book">book</option>
+        </select>
         <p className='mb-2 mt-4'>Price</p>
         <input type="text" name="product-price" id="product-price" className='w-full box-border border border-slate-400 rounded p-1' />
         <p className='mb-2 mt-4'>Description</p>
