@@ -1,11 +1,20 @@
-import React from 'react'
+// Header.js
+import React from 'react';
 
 const Header = () => {
   return (
-    <div className='bg-red-500 text-center'>
-      Header
+    <div className='bg-blue-500 p-4'>
+      <h1 className='text-white text-2xl font-bold'>My App</h1>
+      <nav className='mt-2'>
+        <ul className='flex space-x-4'>
+          <li><a href='#' className='text-white'>Home</a></li>
+          <li><a href='#' className='text-white'>About</a></li>
+          <li><a href='#' className='text-white'>Contact</a></li>
+        </ul>
+      </nav>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
+

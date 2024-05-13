@@ -1,11 +1,19 @@
 import React from 'react'
+import Header from '../../components/header/Header'
 
 const Top = () => {
   return (
-    <div className='text-blue bg-red-500'>
-      {/*トップページをここに記述 */}
-      top
+    <>
+    {/*トップページをここに記述 */}
+    <div>
+      <div className="">
+        {/*トップセクション */}
+      </div>
+      <div className="">
+        {/* <productCard/>*/}
+      </div>
     </div>
+    </>
   )
 }
 
