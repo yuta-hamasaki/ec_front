@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
-import Top from './pages/top/Top';
-import Page404 from "./pages/404/Page404";
+import Top from './pages/Top';
+import Page404 from "./pages/Page404";
 import ProductPost from "./pages/ProductPost";
 
 function App() {
