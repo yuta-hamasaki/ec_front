@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../../components/header/Header'
-import ProductCard from '../../components/productCard/ProductCard'
+import ProductCard from '../components/ProductCard'
 
 const Top = () => {
 
