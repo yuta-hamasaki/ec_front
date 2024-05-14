@@ -1,6 +1,5 @@
 import React from 'react'
-import Header from '../components/Header'
-import ProductCard from '../components/ProductCard'
+import ProductCard from '../components/productCard';
 
 const Top = () => {
 
@@ -16,7 +15,7 @@ const productData = [
 },
 {id:2, productName:'Yuta ', shopName: "cornerstone .inc", price:"$100.00"
 },
-{id:2, productName:'Yuta ', shopName: "cornerstone .inc", price:"$100.00"
+{id:2, productName:'Kazu', shopName: "cornerstone .inc", price:"$1000.00"
 },
 ];
 
