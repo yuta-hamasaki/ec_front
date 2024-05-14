@@ -20,8 +20,8 @@ const ProductPost = () => {
         <textarea name="product-description" id="product-description" className='w-full h-32 box-border border border-slate-400 rounded p-1'></textarea>
         <br />
         <input className='bg-indigo-500 hover:bg-indigo-400 hover:cursor-pointer text-white rounded mt-8 h-12 w-full sm:w-36 block mx-auto text-sm' type="submit" value="Post Product" />
+        <Button />
       </div>
-      <Button />
     </div>
   )
 }
