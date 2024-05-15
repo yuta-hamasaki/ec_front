@@ -1,5 +1,6 @@
 import React from 'react'
-import ProductCard from '../components/ProductCard';
+import Hero from "../components/Hero"
+import ProductCard from '../components/ProductCard'
 
 const Top = () => {
 
@@ -25,6 +26,7 @@ const productData = [
     <div>
       <div className="">
         {/*トップセクション */}
+        <Hero/>
       </div>
       <div className="flex flex-wrap m-6">
         {productData.map((product, index)=>(
