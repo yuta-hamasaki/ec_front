@@ -28,16 +28,16 @@ const productData = [
         {/*トップセクション */}
         <Hero/>
       </div>
-      <div className="flex flex-wrap m-6">
-        {productData.map((product, index)=>(
-          <ProductCard
-            key={index}
-            productName={product.productName}
-            shopName={product.shopName}
-            price={product.price}
-          />
-        ))}
-      </div>
+      <div className="flex flex-wrap justify-center m-6">
+          {productData.map((product) => (
+            <ProductCard
+              key={product.id}
+              productName={product.productName}
+              shopName={product.shopName}
+              price={product.price}
+            />
+          ))}
+        </div>
     </div>
     </>
   )
