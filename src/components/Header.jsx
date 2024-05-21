@@ -7,9 +7,7 @@ const Header = () => {
       <h1 className='text-white text-2xl font-bold'>My App</h1>
       <nav className='mt-2'>
         <ul className='flex space-x-4'>
-          <li><a href='#' className='text-white'>Home</a></li>
-          <li><a href='#' className='text-white'>About</a></li>
-          <li><a href='#' className='text-white'>Contact</a></li>
+          <li><a href='#' className='text-white'>Login</a></li>
         </ul>
       </nav>
     </div>
