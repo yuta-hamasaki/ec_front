@@ -19,7 +19,7 @@ const ProductPost = () => {
           <input type="text" name="product-price" id="product-price" className='w-full box-border border border-slate-400 rounded p-1' />
           <p className='mb-2 mt-4'>Description</p>
           <textarea name="product-description" id="product-description" className='w-full h-32 box-border border border-slate-400 rounded p-1'></textarea>
-          <Button />
+          <Button value="Post Product"/>
         </form>
       </div>
     </div>
